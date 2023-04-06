@@ -7,7 +7,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 My Portfolio ](#-my-portfolio-)
+- [📖 My Bootstrap Portfolio ](#-my-bootstrap-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -24,9 +24,9 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 My Portfolio <a name="about-project"></a>
+# 📖 My Bootstrap Portfolio <a name="about-project"></a>
 
-**My Portfolio** is a a website that shows my achievements, my skills, my contact details and all the informations needed by a recruiter or a collaborator
+**My Bootstrap Portfolio** is a website buit using bootstrap framework that shows my achievements, my skills, my contact details and all the informations needed by a recruiter or a collaborator
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -34,7 +34,7 @@
 
 - HTML
 - CSS
-- Javascript
+- Bootstrap
 
 ### Key Features <a name="key-features"></a>
 
@@ -104,18 +104,9 @@ To run tests, run the following command:
 - Linkedin: [mahamadou-nouridine-mamoudou-souley-2b424a1a5](https://www.linkedin.com/in/mahamadou-nouridine-mamoudou-souley-2b424a1a5)
 - Twitter: [Nouridine_Dino](https://twitter.com/Nouridine_Dino)
 
-👤 **Shihab Uddin Khan**
-
-- GitHub: [@shihabrafio](https://github.com/shihabrafio)
-- Twitter: [@shihab_uddin19](https://twitter.com/shihab_uddin19)
-- LinkedIn: [Shihab Uddin Khan](https://www.linkedin.com/in/shihab-uddin-khan-45620a16a/)
-
-👤 **Tumaini Maganiko**
-
-- GitHub: [@githubhandle](https://github.com/tumainimaganiko)
-- Twitter: [@twitterhandle](https://twitter.com/Chief2maini)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tumaini-maganiko-991b30262/)
-
+👤 **Habtamu Alemayehu**
+- GitHub: [@bena] https://github.com/Benawi
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
