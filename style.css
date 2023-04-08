@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
+
+/* navbar */
+.navbar {
+  background-color: #3e3c3c;
+}
+
+.navbar-toggler-icon > i {
+  color: #fff;
+  font-size: 28px;
+}
+
+.navbar-nav-scroll {
+  --bs-scroll-height: 100px;
+}
+
+/* navbar */
+
+/* headline */
+.headline-title {
+  font-family: Crete Round, sans-serif;
+  color: #ff6b00;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+}
+
+.headline-title2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 12px 0;
+}
+
+.headline-description {
+  font-family: "Poppins", serif, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff5e1;
+}
+
+.headline-presentation {
+  max-width: 566px;
+}
+
+.headline-social > li {
+  list-style-type: none;
+}
+
+.headline-social {
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  width: auto;
+  align-self: center;
+  margin-left: -10%;
+}
+
+.headline {
+  background-color: #1c1a19;
+}
+
+/* headline */
+
+/* works */
+.divider {
+  height: 2px;
+}
+
+.card1-image {
+  max-width: 684px;
+}
+
+.project1-tags,
+.card-tags {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 12px;
+  width: 100%;
+  max-width: 314px;
+}
+
+.project1-card-title {
+  font-family: Crete Round, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.project1-card-description,
+.card-description {
+  padding: 12px 0;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+button {
+  padding: 12px;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: white;
+  background: #ff6b00;
+  border: none;
+}
+
+.card-w {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("./images/card-image.png");
+  background-size: cover;
+}
+
+.card-tag {
+  background-color: rgba(255, 255, 255, 0.24);
+  color: white;
+}
+
+.project1-tag,
+.card-tag {
+  padding: 10px 12px 10px 12px;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.card-button {
+  height: 48px;
+  width: 100%;
+  bottom: 0;
+}
+
+/* works */
+
+/* about me */
+.about-me {
+  background-color: #262626;
+}
+
+.skill {
+  width: auto;
+  padding: 25px 0;
+  color: white;
+}
+
+.skill-title {
+  display: flex;
+  padding: 0 12px;
+  align-items: center;
+  justify-content: start;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  list-style-type: none;
+  padding-top: 33px;
+  justify-content: space-between;
+}
+
+.skill-item {
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.skill-title > i {
+  padding-right: 12px;
+  color: #ff6b00;
+}
+
+/* about me */
+
+/* contact */
+.contact-text {
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+/* contact */
+
+/* footer */
+.footer-social > li {
+  list-style-type: none;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 0 16px 0;
+  width: 200px;
+  height: 40px;
+  margin-top: 12px;
+}
+
+.footer-divider {
+  width: 100%;
+  border: solid 1px #dfe1e6;
+}
+
+/* footer */
