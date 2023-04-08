@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"
+        defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bootstrap Portfolio</title>
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="container d-flex justify-content-between ">
+                <a class="navbar-brand text-white" href="#">Nouridine</a>
+                <div>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll "
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white"><i class="bi bi-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="bi bi-list" style="color:#fff; font-size:28px;"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation bar -->
+
+
+    <!--headline-->
+    <section class="headline container-fluid py-5 ">
+        <div class="container py-5 position-relative  my-5">
+            <div class="headline-presentation">
+                <h1 class="headline-title">
+                    Hey There.
+                    I’m Mahamadou Nouridine.
+                </h1>
+                <h2 class="headline-title2">
+                    I’m a Software Developer
+                </h2>
+                <p class="headline-description">
+                    I can help you build a product , feature or website. Look through some of my work and experience! If
+                    you like what you see and have a project you need coded,
+                    don’t hesitate to contact me.
+                </p>
+            </div>
+            <ul class="headline-social position-absolute top-50 start-0 translate-middle-y">
+                <li>
+                    <a class="social" rel="noopener" href="#">
+                        <img src="./images/icons/github.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a class="social" rel="noopener" href="#">
+                        <img src="./images/icons/Linkedin icon.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a class="social" rel="noopener" href="#">
+                        <img src="./images/icons/angel list.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a class="social" rel="noopener" href="#">
+                        <img src="./images/icons/twitter.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a class="social" rel="noopener" href="#">
+                        <img src="./images/icons/medium.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--headline-->
+
+    <!-- works -->
+    <section class="work container-fluid py-5">
+        <div class="container my-5">
+            <div class="projects-heading d-flex justify-content-between align-items-center mb-5">
+                <h2 class="projects-title w-25">My Recent Works</h2>
+                <div class="w-75">
+                    <hr class="bg-primary h-100 bg-dark">
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-7" style="max-width: 684px;">
+                        <img src="./images/multi-post-stories.png" class="img-fluid rounded-start w-100" alt="...">
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card-body">
+                            <h5 class="project1-card-title">Multi-Post Stories</h5>
+                            <p class="project1-card-description">
+                                A daily selection of privately personalized reads; no accounts or sign-ups required.
+                                This has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a standard dummy text.
+                            </p>
+
+
+                            <ul class="project1-tags">
+                                <li class="project1-tag">CSS</li>
+                                <li class="project1-tag">HTML</li>
+                                <li class="project1-tag">Bootstrap</li>
+                                <li class="project1-tag">Ruby</li>
+                            </ul>
+
+                            <button class="project1-button">See Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card pt-5 p-3 card-w text-white">
+                        <h3 class="title mt-5">
+                            Data Dashboard <br>
+                            Healthcare
+                        </h3>
+                        <p class="card-description">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required. Has
+                            been the industry's standard.
+                        </p>
+                        <ul class="card-tags">
+                            <li class="card-tag">HTML</li>
+                            <li class="card-tag">Booststrap</li>
+                            <li class="card-tag">Ruby</li>
+                        </ul>
+                        <button class="card-button w-100">See project</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pt-5 p-3 card-w text-white">
+                        <h3 class="title mt-5">
+                            Data Dashboard <br>
+                            Healthcare
+                        </h3>
+                        <p class="card-description">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required. Has
+                            been the industry's standard.
+                        </p>
+                        <ul class="card-tags">
+                            <li class="card-tag">HTML</li>
+                            <li class="card-tag">Booststrap</li>
+                            <li class="card-tag">Ruby</li>
+                        </ul>
+                        <button class="card-button w-100">See project</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pt-5 p-3 card-w text-white">
+                        <h3 class="title mt-5">
+                            Data Dashboard <br>
+                            Healthcare
+                        </h3>
+                        <p class="card-description">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required. Has
+                            been the industry's standard.
+                        </p>
+                        <ul class="card-tags">
+                            <li class="card-tag">HTML</li>
+                            <li class="card-tag">Booststrap</li>
+                            <li class="card-tag">Ruby</li>
+                        </ul>
+                        <button class="card-button w-100">See project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card pt-5 p-3 card-w text-white">
+                        <h3 class="title mt-5">
+                            Data Dashboard <br>
+                            Healthcare
+                        </h3>
+                        <p class="card-description">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required. Has
+                            been the industry's standard.
+                        </p>
+                        <ul class="card-tags">
+                            <li class="card-tag">HTML</li>
+                            <li class="card-tag">Booststrap</li>
+                            <li class="card-tag">Ruby</li>
+                        </ul>
+                        <button class="card-button w-100">See project</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pt-5 p-3 card-w text-white">
+                        <h3 class="title mt-5">
+                            Data Dashboard <br>
+                            Healthcare
+                        </h3>
+                        <p class="card-description">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required. Has
+                            been the industry's standard.
+                        </p>
+                        <ul class="card-tags">
+                            <li class="card-tag">HTML</li>
+                            <li class="card-tag">Booststrap</li>
+                            <li class="card-tag">Ruby</li>
+                        </ul>
+                        <button class="card-button w-100">See project</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pt-5 p-3 card-w text-white">
+                        <h3 class="title mt-5">
+                            Data Dashboard <br>
+                            Healthcare
+                        </h3>
+                        <p class="card-description">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required. Has
+                            been the industry's standard.
+                        </p>
+                        <ul class="card-tags">
+                            <li class="card-tag">HTML</li>
+                            <li class="card-tag">Booststrap</li>
+                            <li class="card-tag">Ruby</li>
+                        </ul>
+                        <button class="card-button w-100">See project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card pt-5 p-3 card-w text-white">
+                        <h3 class="title mt-5">
+                            Data Dashboard <br>
+                            Healthcare
+                        </h3>
+                        <p class="card-description">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required. Has
+                            been the industry's standard.
+                        </p>
+                        <ul class="card-tags">
+                            <li class="card-tag">HTML</li>
+                            <li class="card-tag">Booststrap</li>
+                            <li class="card-tag">Ruby</li>
+                        </ul>
+                        <button class="card-button w-100">See project</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pt-5 p-3 card-w text-white">
+                        <h3 class="title mt-5">
+                            Data Dashboard <br>
+                            Healthcare
+                        </h3>
+                        <p class="card-description">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required. Has
+                            been the industry's standard.
+                        </p>
+                        <ul class="card-tags">
+                            <li class="card-tag">HTML</li>
+                            <li class="card-tag">Booststrap</li>
+                            <li class="card-tag">Ruby</li>
+                        </ul>
+                        <button class="card-button w-100">See project</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pt-5 p-3 card-w text-white">
+                        <h3 class="title mt-5">
+                            Data Dashboard <br>
+                            Healthcare
+                        </h3>
+                        <p class="card-description">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required. Has
+                            been the industry's standard.
+                        </p>
+                        <ul class="card-tags">
+                            <li class="card-tag">HTML</li>
+                            <li class="card-tag">Booststrap</li>
+                            <li class="card-tag">Ruby</li>
+                        </ul>
+                        <button class="card-button w-100">See project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- works -->
+
+    <!-- about me -->
+    <section class="about-me container-fluid py-5 ">
+        <div class="container py-5 position-relative  my-5">
+            <div class="headline-presentation mb-5">
+                <h3 class="headline-title">
+                    About me
+                </h3>
+                <p class="headline-description">
+                    Hey there! I can help you build a product, feature or website. Look through some of my work and
+                    experience! If you like what you see and have a project you need coded, don’t hesitate to contact
+                    me.
+                </p>
+                <button class="project1-button">Get My resume</button>
+            </div>
+
+            <div class="w-100" style="height: 2px;">
+                <hr class="bg-white h-100 bg-dark">
+            </div>
+
+            <div class="skills d-flex align-items-center w-100 bg-primary justify-content-between">
+                <div class="skill">
+                    <div class="skill-title">
+                        <i class="fa-solid fa-diamond"></i>
+                        <h2>Language</h2>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">JavaScript</li>
+                        <li class="skill-item">Ruby</li>
+                        <li class="skill-item">HTML</li>
+                        <li class="skill-item">CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-title">
+                        <i class="fa-solid fa-square"></i>
+                        <h2>Frameworks</h2>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">React.js</li>
+                        <li class="skill-item">Ruby on Rails</li>
+                        <li class="skill-item">RSpec</li>
+                        <li class="skill-item">Capybara</li>
+                    </ul>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-title">
+                        <i class="fa-solid fa-circle"></i>
+                        <h2>Skills</h2>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">Database Management</li>
+                        <li class="skill-item">Version Control</li>
+                        <li class="skill-item">CLI</li>
+                        <li class="skill-item">API Design</li>
+                        <li class="skill-item">Web Development</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- about me -->
+
+    <!-- contact -->
+    <section class="container-fluid contact py-5">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col col-md-5">
+                    <p class="contact-text">
+                        I'm always interested <br>
+                        in hearing about new projects, so if you'd <br>
+                        like to chat please <br>
+                        get in touch.
+                    </p>
+                </div>
+                <div class="col col-md-7">
+                    <form action="">
+                        <div class="mb-5">
+                            <label for="fullname" class="form-label d-none">Email address</label>
+                            <input type="text" class="form-control" id="fullname" name="fullname"
+                                placeholder="Full name">
+                        </div>
+
+                        <div class="mb-5">
+                            <label for="email" class="form-label d-none">Email address</label>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Email Address">
+                        </div>
+
+                        <div class="mb-5">
+                            <label for="something" class="form-label d-none">Example textarea</label>
+                            <textarea class="form-control" id="something" name="something"
+                                placeholder="Write me something" rows="3"></textarea>
+                        </div>
+                        <button class="project1-button">Get in touch</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="container d-flex flex-column align-items-center">
+            <hr class="footer-divider w-100 bg-black">
+            <ul class="footer-social">
+                <li>
+                    <a class="social-item" rel="noopener" href="#">
+                        <img src="./images/icons/footer/github.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a class="social-item" rel="noopener" href="#">
+                        <img src="./images/icons/footer/Icon - Linkedin.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a class="social-item" rel="noopener" href="#">
+                        <img src="./images/icons/footer/Vector.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a class="social-item" rel="noopener" href="#">
+                        <img src="./images/icons/footer/twitter.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a class="social-item" rel="noopener" href="#">
+                        <img src="./images/icons/footer/medium.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>
