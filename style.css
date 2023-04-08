@@ -5,6 +5,15 @@
   background-color: #3e3c3c;
 }
 
+.navbar-toggler-icon > i {
+  color: #fff;
+  font-size: 28px;
+}
+
+.navbar-nav-scroll {
+  --bs-scroll-height: 100px;
+}
+
 /* navbar */
 
 /* headline */
@@ -59,6 +68,14 @@
 /* headline */
 
 /* works */
+.divider {
+  height: 2px;
+}
+
+.card1-image {
+  max-width: 684px;
+}
+
 .project1-tags,
 .card-tags {
   list-style-type: none;
